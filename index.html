@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div><img class="logo" src="airbnb-logo.png" alt="airbnb"></div>
+        <span class="btn-group">
+            <button><b>Anywhere</b></button>
+            <button><b>Any Week</b></button>
+            <button>Add Guests<i class="fa-solid fa-magnifying-glass"></i></button>
+        </span>
+
+        <div class="hamburger-menu-container">
+            <div>Become a Host</div>
+            <div class="spacing-div">
+                <div class="hamburger-menu">
+                    <div class="hamburger-menu-line"></div>
+                    <div class="hamburger-menu-line"></div>
+                    <div class="hamburger-menu-line"></div>
+                </div>
+                <img src="data:image/jpeg;base64,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" alt="profile-picture">
+            </div>
+        </div>
+        
+    </header>
+    <hr>
+    <main>
+        <div class="button-container">
+            <button class="button"><i class="fa-solid fa-campground"></i>Camping</button>
+            <button class="button"><i class="fa-solid fa-snowflake"></i>Arctic</button>
+            <button class="button"><i class="fa-solid fa-umbrella"></i><span>Beach</span></button>
+            <button class="button"><i class="fa-solid fa-house"></i>Housing</button>
+            <button class="button"><i class="fa-solid fa-building"></i>Apartments</button>
+            
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <div class="card-inner">
+                    <img src="https://i.ytimg.com/vi/xJTOpQv2f_E/maxresdefault.jpg" alt="new jersey">
+                    <div><b>Lambertville, New Jersey</b></div>
+                    <div>Designed by Jules Gregory</div>
+                    <div>Jun 20th - 26th</div>
+                    <div>$679 Night</div>
+                </div>
+                
+            </div>
+
+            <div class="card">
+                <div class="card-inner">
+                    <img src="https://i.ytimg.com/vi/xJTOpQv2f_E/maxresdefault.jpg" alt="new jersey">
+                <div><b>Lambertville, New Jersey</b></div>
+                <div>Designed by Jules Gregory</div>
+                <div>Jun 20th - 26th</div>
+                <div>$679 Night</div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-inner">
+                    <img src="https://i.ytimg.com/vi/xJTOpQv2f_E/maxresdefault.jpg" alt="new jersey">
+                <div><b>Lambertville, New Jersey</b></div>
+                <div>Designed by Jules Gregory</div>
+                <div>Jun 20th - 26th</div>
+                <div>$679 Night</div>
+                </div>
+                
+            </div>
+
+            <div class="card">
+                <div class="card-inner">
+                    <img src="https://i.ytimg.com/vi/xJTOpQv2f_E/maxresdefault.jpg" alt="new jersey">
+                    <div><b>Lambertville, New Jersey</b></div>
+                    <div>Designed by Jules Gregory</div>
+                    <div>Jun 20th - 26th</div>
+                    <div>$679 Night</div>
+                </div>
+                
+            </div>
+
+            <div class="card">
+                <div class="card-inner">
+                    <img src="https://i.ytimg.com/vi/xJTOpQv2f_E/maxresdefault.jpg" alt="new jersey">
+                    <div><b>Lambertville, New Jersey</b></div>
+                    <div>Designed by Jules Gregory</div>
+                    <div>Jun 20th - 26th</div>
+                    <div>$679 Night</div>
+                </div>
+                
+            </div>
+
+            <div class="card">
+                <div class="card-inner">
+                    <img src="https://i.ytimg.com/vi/xJTOpQv2f_E/maxresdefault.jpg" alt="new jersey">
+                    <div><b>Lambertville, New Jersey</b></div>
+                    <div>Designed by Jules Gregory</div>
+                    <div>Jun 20th - 26th</div>
+                    <div>$679 Night</div>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
